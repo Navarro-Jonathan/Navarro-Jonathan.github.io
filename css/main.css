@@ -62,14 +62,17 @@ a.button1 {
   background-color: rgb(32, 32, 32);
   text-align: center;
   position: relative;
-  box-shadow: 4px 4px 0 0 rgb(48, 48, 48);
-  transition: all 0.2s;
+  box-shadow: 0.1em 0.1em 0 0 rgb(48, 48, 48);
+  bottom: 0em;
+  right: 0em;
 }
 
 a.button1:hover {
-  bottom: -0.05em;
+  bottom: -0.1em;
   right: -0.1em;
-  box-shadow: 1.5px 1.5px 0 0 rgb(48, 48, 48);
+  transition: bottom 0.05s;
+  transition: right 0.05s;
+  box-shadow: 0.02em 0.02em 0 0 rgb(48, 48, 48);
 }
 
 @media all and (max-width:30em) {
