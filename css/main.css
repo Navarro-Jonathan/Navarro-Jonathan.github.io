@@ -2,7 +2,18 @@ html{
   height: 100%;
 }
 
+body{ height:100vh; margin:0; }
+
+header{ min-height:30px; background:dimgray;}
+footer{ min-height:30px; background:dimgray;}
+
+footer{
+  margin-top:auto; 
+}
+
 body {
+  display:flex; 
+  flex-direction:column; 
   height:100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -12,12 +23,15 @@ body {
 }
 
 #particles-js{
-  height: 99%;
+  height: 99.7%;
   position:absolute;
+}
+.contact{
+  font-size: 22px;
+  color: white;
 }
 
 .text {
-  font-size: 50px;
   color: #00E660;
   font-family: 'Roboto', sans-serif;
   font-family: 'Raleway', sans-serif;
@@ -37,6 +51,7 @@ body {
 }
 
 a.button1 {
+  font-size: 50px;
   display: inline-block;
   padding: 0.2em 1em;
   margin: 0 0.3em 0.3em 0;
@@ -47,32 +62,14 @@ a.button1 {
   background-color: rgb(32, 32, 32);
   text-align: center;
   position: relative;
-  box-shadow: 2px 2px 0 0 rgb(48, 48, 48);
+  box-shadow: 4px 4px 0 0 rgb(48, 48, 48);
   transition: all 0.2s;
 }
 
 a.button1:hover {
-  bottom: -0.025em;
-  right: -0.025em;
+  bottom: -0.05em;
+  right: -0.1em;
   box-shadow: 1.5px 1.5px 0 0 rgb(48, 48, 48);
-}
-
-a.button2 {
-  display: inline-block;
-  padding: 0.35em 1.2em;
-  border: 0.1em solid #FFFFFF;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 0.12em;
-  box-sizing: border-box;
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  transition: all 0.2s;
-}
-
-a.button2:hover {
-  color: #000000;
-  background-color: #FFFFFF;
 }
 
 @media all and (max-width:30em) {
