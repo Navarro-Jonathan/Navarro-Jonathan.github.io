@@ -1,0 +1,87 @@
+html{
+  height: 100%;
+}
+
+body {
+  height:100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font: normal 75% Arial, Helvetica, sans-serif;
+  background: radial-gradient(rgb(64, 64, 64), rgb(16, 16, 16));
+}
+
+#particles-js{
+  height: 99%;
+  position:absolute;
+}
+
+.text {
+  font-size: 50px;
+  color: #00E660;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  position: relative;
+}
+
+.name {
+  font-size: 3vw;
+}
+
+a.button1 {
+  display: inline-block;
+  padding: 0.2em 1em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.15em;
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(32, 32, 32);
+  text-align: center;
+  position: relative;
+  box-shadow: 2px 2px 0 0 rgb(48, 48, 48);
+  transition: all 0.2s;
+}
+
+a.button1:hover {
+  bottom: -0.025em;
+  right: -0.025em;
+  box-shadow: 1.5px 1.5px 0 0 rgb(48, 48, 48);
+}
+
+a.button2 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+a.button2:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+  a.button1 {
+    display: block;
+    margin: 0.4em auto;
+  }
+  a.button2 {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
