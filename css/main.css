@@ -59,9 +59,17 @@ body {
 }
 
 .name {
-  font-size: 4.5vh;
-  margin-bottom: 3vh;
+  font-size: 8vh;
+  margin-bottom: 0;
   text-align: center;
+  text-shadow: -0.2vh 0 black, 0 0.2vh black, 0.2vh 0 black, 0 -0.2vh black;
+}
+
+.section{
+  font-size: 6vh;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  text-shadow: -0.2vh 0 black, 0 0.2vh black, 0.2vh 0 black, 0 -0.2vh black;
 }
 
 /* btn from uiverse.io by @EmmaxPlay */
