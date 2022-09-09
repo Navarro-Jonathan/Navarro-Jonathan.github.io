@@ -1,4 +1,5 @@
-# Navarro-Jonathan.github.io
+# Jonathan Navarro's Portfolio Website
 
-This is my portfolio site, which is hosted off of GitHub pages.
-It can be viewed [here](https://navarro-jonathan.github.io/).
+This is the repository for Jonathan Navarro's portfolio site.
+
+The website itself can be viewed at https://navarro-jonathan.github.io.
